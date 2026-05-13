@@ -185,11 +185,25 @@
 		}
 		
 		.footer-menu{
-			background-color:black;
-			color:white;
-			width:100%;
-			height:100%;
-		}
+    background-color: black !important;
+}
+
+.footer-menu .container-fluid,
+.footer-menu .row{
+    background-color: black !important;
+    margin: 0;
+}
+
+.footer-menu .col-md-5,
+.footer-menu .col-lg-4,
+.footer-menu .col-lg-2,
+.footer-menu .col-lg-3{
+    background-color: black !important;
+}
+
+.footer-menu *{
+    color: white;
+}
 		
 		
 		.footer-p{
